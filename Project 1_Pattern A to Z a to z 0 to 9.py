@@ -51,6 +51,8 @@ while attempts <n1:
             print(YY.pattern_G(n))
         elif letter == "H":
             print(YY.pattern_H(n))
+        elif letter == "I":
+            print(YY.pattern_I(n))
         elif letter == "J":
             print(YY.pattern_J(n))
         elif letter == "L":
@@ -72,7 +74,7 @@ while attempts <n1:
         import numbers_pattern as XX
         number =input("\nSelect Number to Print Pattern 0 to 9 : ")
         if number=='0':
-            print(X.pattern_0(n))
+            print(XX.pattern_0(n))
         elif number=='1':
             print(XX.pattern_1(n))
         elif number=='2':
